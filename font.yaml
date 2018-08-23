@@ -1,0 +1,54 @@
+# Geometry for each letter.
+# I use YAML anchors to DRY up the code, especially since
+# I might tweak this font at a later date.
+---
+A:
+- &A1 # Left diagonal
+  - [1.0, 1.5, 0.0]
+  - [0.0, 5.0, 0.0]
+- &A2 # Right diagonal
+  - [1.5, 2.0, 2.5]
+  - [5.0, 0.0, 5.0]
+- &A3 # Crossbar. This overlaps the other shapes slightly
+  - [1.0, 2.0, 1.0]
+  - [1.0, 1.0, 2.0]
+B:
+- &B1 # Left vertical
+  - [0.0, 0.0, 1.0]
+  - [5.0, 0.0, 5.0]
+- &B2 # Top slant
+  - [1.0, 3.0, 1.0]
+  - [4.0, 2.5, 5.0]
+- &B3 # Bottom slant
+  - [1.0, 3.0, 1.0]
+  - [0.0, 1.5, 1.0]
+- &B4 # Crossbar
+  - [1.0, 2.0, 1.0]
+  - [2.0, 2.0, 3.0]
+C: # TODO START HERE
+D: #D is just like B without the crossbar
+- *B1
+- *B2
+- *B3
+E:
+F:
+G:
+H:
+I:
+J:
+K:
+L:
+M:
+N:
+O:
+P:
+Q:
+R:
+S:
+T:
+U:
+V:
+W:
+X:
+Y:
+Z:
