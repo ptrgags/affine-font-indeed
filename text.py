@@ -14,6 +14,16 @@ class Text(object):
         """
         return '\n'.join('|{}|'.format(line) for line in self.text)
 
+    def __iter__(self):
+        """
+        Iterate over the text and generate the row, column and letter
+        for all characters that are not spaces
+        """
+        for i, line in enumerate(self.text):
+            for j, letter in enumerate(line):
+                if letter != ' ':
+                    yield i, j, letter
+
     def sanitize(self, valid_letters):
         """
         Sanitize the text by converting every non-supported

@@ -11,3 +11,6 @@ print(txt)
 
 lyt = Layout(fnt, txt)
 print(lyt.bounding_box)
+
+for stroke in lyt.geometry:
+    print(stroke)
