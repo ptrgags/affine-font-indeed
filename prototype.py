@@ -2,15 +2,18 @@
 from text import Text
 from font import Font
 from layout import Layout
+from affine_finder import AffineFinder
 
-txt = Text('Hello Cruel\n World!')
+txt = Text('Peter')
 print(txt)
 fnt = Font()
 txt.sanitize(fnt.alphabet)
 print(txt)
 
 lyt = Layout(fnt, txt)
-print(lyt.bounding_box)
 
-for stroke in lyt.geometry:
-    print(stroke)
+finder = AffineFinder(lyt.bounding_box)
+
+for xform in finder.find_xforms(lyt.geometry):
+    print(xform)
+
