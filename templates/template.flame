@@ -3,6 +3,7 @@
 {% for xform in xforms %}
     {{xform}}
 {%- endfor %}
+    <finalxform color="0" symmetry="1" linear="0.1" coefs="1 0 0 1 0 0" />
 	<palette count="256" format="RGB">
       3BAFAE20A3AD2EABAD3DB4AE75B59FAEB691A59C629C8333
       E0612CCD3B3BBA164BB40E54AE065EB21C6EB6327EB13C95
