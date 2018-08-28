@@ -48,26 +48,6 @@ def get_args():
         help='Use █ to fill out the empty spaces in the text')
     return parser.parse_args()
 
-
-
-
-'''
-txt = Text('abcdefg\nhijklmn\nopqrst\nuvwxyz','█')
-print(txt)
-fnt = Font()
-txt.sanitize(fnt.alphabet)
-print(txt)
-
-lyt = Layout(fnt, txt)
-
-finder = AffineFinder(lyt.bounding_box)
-
-xforms = finder.find_xforms(lyt.geometry)
-
-writer = FlameWriter()
-writer.write('output/test.flame', 'Peter', xforms)
-'''
-
 if __name__ == '__main__':
     args = get_args()
     print(args.text)
