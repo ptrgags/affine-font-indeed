@@ -84,7 +84,7 @@ class Layout(object):
             y_offset = i * y_spacing
             offset_vector = numpy.array([
                 [x_offset],
-                [y_offset]
+                [-y_offset]
             ])
                 
             # Now we know where the corner of the letter is in world
