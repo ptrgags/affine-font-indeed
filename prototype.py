@@ -5,7 +5,7 @@ from layout import Layout
 from affine_finder import AffineFinder
 from flame_writer import FlameWriter
 
-txt = Text('happy\nbirthday','█')
+txt = Text('abcdefg\nhijklmn\nopqrst\nuvwxyz','█')
 print(txt)
 fnt = Font()
 txt.sanitize(fnt.alphabet)
