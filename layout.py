@@ -56,14 +56,14 @@ class Layout(object):
     @property
     def corner(self):
         """
-        Compute the bottom-left corner of the bounding box as a 
+        Compute the top-left corner of the bounding box as a 
         2x1 column array
         """
         half_w = self.width / 2.0
         half_h = self.height / 2.0
         return numpy.array([
             [-half_w],
-            [-half_h]
+            [half_h - self.CHAR_HEIGHT]
         ]) 
 
     @property

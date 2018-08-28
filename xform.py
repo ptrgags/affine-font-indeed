@@ -30,10 +30,14 @@ class XForm(object):
         [b d]
         [e f]
 
-        to a list [a, b, c, d, e, f]
+        to a list [a, c, b, d, e, f], the format that Apophysis uses.
+
+        IMPORTANT: For some reason, Apophysis negates three of the six
+        coordinates. I am not yet sure why this is. It seems related to
+        typical y-up vs y-down coordinate issues.
         """
         a, c = coeffs[0, :]
         b, d = coeffs[1, :]
         e, f = coeffs[2, :]
 
-        return [a, b, c, d, e, f]
+        return [a, -c, -b, d, e, -f]
