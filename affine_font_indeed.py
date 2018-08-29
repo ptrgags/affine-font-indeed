@@ -24,9 +24,17 @@ def make_flame(args):
     print(text)
 
 
+    # The Layout handles positioning each character of text
     layout = Layout(font, text)
+
+    # The AffineFinder calculates the necessary transformation
+    # matricies. It returns XForm Objects
     finder = AffineFinder(layout.bounding_box)
-    xforms = finder.find_xforms(layout.geometry)
+    xforms = list(finder.find_xforms(layout.geometry))
+
+    print("This fractal will use {} xforms + final xform".format(len(xforms)))
+
+
     writer = FlameWriter()
     writer.write(args.fname, args.flame_name, xforms)
 
