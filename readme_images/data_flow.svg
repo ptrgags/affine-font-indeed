@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 640 840" xmlns="http://www.w3.org/2000/svg" xmlns:inkspace="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs id="defs_block">
+    <filter height="1.504" id="filter_blur" inkspace:collect="always" width="1.1575" x="-0.07875" y="-0.252">
+      <feGaussianBlur id="feGaussianBlur3780" inkspace:collect="always" stdDeviation="4.2" />
+    </filter>
+  </defs>
+  <title>blockdiag</title>
+  <desc />
+  <polygon fill="rgb(0,0,0)" points="67,46 179,46 195,62 195,86 67,86 67,46" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <polygon fill="rgb(0,0,0)" points="451,46 563,46 579,62 579,86 451,86 451,46" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <polygon fill="rgb(0,0,0)" points="67,766 179,766 195,782 195,806 67,806 67,766" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="286" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="451" y="126" />
+  <ellipse cx="515" cy="226" fill="rgb(0,0,0)" rx="64" ry="20" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="366" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="686" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="526" />
+  <rect fill="rgb(0,0,0)" height="40" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" width="128" x="67" y="606" />
+  <ellipse cx="131" cy="466" fill="rgb(0,0,0)" rx="64" ry="20" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <ellipse cx="323" cy="466" fill="rgb(0,0,0)" rx="64" ry="20" stroke="rgb(0,0,0)" style="filter:url(#filter_blur);opacity:0.7;fill-opacity:1" />
+  <polygon fill="rgb(255,255,255)" points="64,40 176,40 192,56 192,80 64,80 64,40" stroke="rgb(0,0,0)" />
+  <path d="M 176 40 L 176 56" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 176 56 L 192 56" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="73" x="128" y="66">desired text</text>
+  <polygon fill="rgb(255,255,255)" points="448,40 560,40 576,56 576,80 448,80 448,40" stroke="rgb(0,0,0)" />
+  <path d="M 560 40 L 560 56" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 560 56 L 576 56" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="55" x="512" y="66">font.yaml</text>
+  <polygon fill="rgb(255,255,255)" points="64,760 176,760 192,776 192,800 64,800 64,760" stroke="rgb(0,0,0)" />
+  <path d="M 176 760 L 176 776" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 176 776 L 192 776" fill="none" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="73" x="128" y="786">output.flame</text>
+  <rect fill="rgb(135,206,235)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="280" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="25" x="128" y="306">Text</text>
+  <rect fill="rgb(135,206,235)" height="40" stroke="rgb(0,0,0)" width="128" x="448" y="120" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="25" x="512" y="146">Font</text>
+  <ellipse cx="512" cy="220" fill="rgb(250,128,114)" rx="64" ry="20" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="49" x="512" y="226">alphabet</text>
+  <rect fill="rgb(135,206,235)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="360" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="37" x="128" y="386">Layout</text>
+  <rect fill="rgb(135,206,235)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="680" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="67" x="128" y="706">FlameWriter</text>
+  <rect fill="rgb(135,206,235)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="520" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="73" x="128" y="546">AffineFinder</text>
+  <rect fill="rgb(135,206,235)" height="40" stroke="rgb(0,0,0)" width="128" x="64" y="600" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="37" x="128" y="626">XForms</text>
+  <ellipse cx="128" cy="460" fill="rgb(250,128,114)" rx="64" ry="20" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="73" x="128" y="466">bounding box</text>
+  <ellipse cx="320" cy="460" fill="rgb(250,128,114)" rx="64" ry="20" stroke="rgb(0,0,0)" />
+  <text fill="rgb(0,0,0)" font-family="sans-serif" font-size="11" font-style="normal" font-weight="normal" text-anchor="middle" textLength="49" x="320" y="466">geometry</text>
+  <path d="M 128 80 L 128 272" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,279 124,272 132,272 128,279" stroke="rgb(0,0,0)" />
+  <path d="M 512 80 L 512 112" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="512,119 508,112 516,112 512,119" stroke="rgb(0,0,0)" />
+  <path d="M 128 320 L 128 352" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,359 124,352 132,352 128,359" stroke="rgb(0,0,0)" />
+  <path d="M 512 160 L 512 192" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="512,199 508,192 516,192 512,199" stroke="rgb(0,0,0)" />
+  <path d="M 512 160 L 512 180" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 224 180 L 512 180" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 224 180 L 224 340" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 128 340 L 224 340" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 128 340 L 128 352" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,359 124,352 132,352 128,359" stroke="rgb(0,0,0)" />
+  <path d="M 512 240 L 512 260" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 128 260 L 220 260" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 220.0 260.0 A4,4 0 0 1 228.0 260.0" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 228 260 L 512 260" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 128 260 L 128 272" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,279 124,272 132,272 128,279" stroke="rgb(0,0,0)" />
+  <path d="M 128 720 L 128 752" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,759 124,752 132,752 128,759" stroke="rgb(0,0,0)" />
+  <path d="M 128 400 L 128 432" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,439 124,432 132,432 128,439" stroke="rgb(0,0,0)" />
+  <path d="M 128 400 L 128 420" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 128 420 L 320 420" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 320 420 L 320 432" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="320,439 316,432 324,432 320,439" stroke="rgb(0,0,0)" />
+  <path d="M 128 560 L 128 592" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,599 124,592 132,592 128,599" stroke="rgb(0,0,0)" />
+  <path d="M 128 640 L 128 672" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,679 124,672 132,672 128,679" stroke="rgb(0,0,0)" />
+  <path d="M 128 480 L 128 512" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,519 124,512 132,512 128,519" stroke="rgb(0,0,0)" />
+  <path d="M 320 480 L 320 500" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 128 500 L 320 500" fill="none" stroke="rgb(0,0,0)" />
+  <path d="M 128 500 L 128 512" fill="none" stroke="rgb(0,0,0)" />
+  <polygon fill="rgb(0,0,0)" points="128,519 124,512 132,512 128,519" stroke="rgb(0,0,0)" />
+</svg>

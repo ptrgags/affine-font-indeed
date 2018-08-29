@@ -1,0 +1,28 @@
+blockdiag {
+  orientation = portrait;
+  class klass [color=skyblue]
+  class object [shape=ellipse, color=salmon]
+  class doc [shape=note]
+
+  text [label="desired text", class=doc]
+  font.yaml [class=doc]
+  output.flame [class=doc]
+  Text [class=klass]
+  Font [class=klass]
+  alphabet [class=object]
+  FlameWriter [class=klass]
+  Layout[class=klass]
+  AffineFinder[class=klass]
+  XForms[class=klass]
+  bounding_box [class=object, label="bounding box"]
+  geometry [class=object]
+  
+  text -> Text
+  font.yaml -> Font
+  Font -> Layout;
+  Font -> alphabet -> Text
+  Text -> Layout;
+  Layout -> bounding_box -> AffineFinder;
+  Layout -> geometry -> AffineFinder;
+  AffineFinder -> XForms -> FlameWriter -> output.flame;
+}
