@@ -91,8 +91,9 @@ class Layout(object):
             # space
             letter_corner = corner + offset_vector
 
-            # Now, go through each of the letter strokes and translate the 
+            # Now, go through each of the letter's strokes and translate the 
             # geometry
-            for stroke in self.font[letter]:
-                yield letter_corner + stroke 
+            for k, stroke in enumerate(self.font[letter]):
+                stroke_name = "{}{}".format(letter, k)
+                yield (letter_corner + stroke, stroke_name)
             

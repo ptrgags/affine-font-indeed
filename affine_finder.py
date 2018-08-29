@@ -9,15 +9,44 @@ class AffineFinder(object):
     XForm objects
     """
     def __init__(self, large_triangle):
+        """
+        Constructor. Pass in the definition of the large
+        triangle that represents the bounding box of the text
+
+        This should be a matrix like this:
+
+        [Ox Xx Yx]
+        [Oy Xy Yy]
+
+        For triangle
+
+        Y
+        |
+        |
+        |
+        O----X
+        """
         self.before = self.prep_before_matrix(large_triangle)
 
     def find_xforms(self, small_triangles):
         """
         yield an XForm for every after triangle desired
+       
+        small_triangles should be a sequence
+        
+        of (triangle, label)
+
+        where triangle is a 2x3 matrix in the same format
+        as the one passed in to __init__()
+
+        Label is a brief description of what the triangle represents
+        This will usually be something like "A0" for the first stroke
+        in letter A
+
         """
-        for tri in small_triangles:
+        for tri, label in small_triangles:
             mat = self.find_affine_xform(tri)
-            yield XForm(mat)
+            yield XForm(label, mat)
 
     def find_affine_xform(self, after):
         """

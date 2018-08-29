@@ -1,5 +1,5 @@
 class XForm(object):
-    def __init__(self, coeffs):
+    def __init__(self, label, coeffs):
         """
         Initialize with an array of coefficients
         in the form
@@ -10,6 +10,7 @@ class XForm(object):
 
         This class will handle the rest
         """
+        self.label = label
         self.coeffs = self.reformat_coeffs(coeffs)
 
     def __str__(self):
@@ -20,7 +21,7 @@ class XForm(object):
 
         return (
             '<xform weight="0.5" color="0" linear="1" coefs="{}" '
-            'opacity="1" name="NAME_ME" />').format(coeff_str)
+            'opacity="1" name="{}" />').format(coeff_str, self.label)
 
     @classmethod
     def reformat_coeffs(cls, coeffs):
