@@ -1,3 +1,5 @@
+import random
+
 class XForm(object):
     def __init__(self, label, coeffs):
         """
@@ -12,6 +14,7 @@ class XForm(object):
         """
         self.label = label
         self.coeffs = self.reformat_coeffs(coeffs)
+        self.color = random.random()
 
     def __str__(self):
         """
@@ -20,8 +23,9 @@ class XForm(object):
         coeff_str = ' '.join('{:.4f}'.format(x) for x in self.coeffs)
 
         return (
-            '<xform weight="0.5" color="0" linear="1" coefs="{}" '
-            'opacity="1" name="{}" />').format(coeff_str, self.label)
+            '<xform weight="0.5" color="{:.3f}" linear="1" coefs="{}" '
+            'opacity="1" name="{}" />').format(
+                self.color, coeff_str, self.label)
 
     @classmethod
     def reformat_coeffs(cls, coeffs):
