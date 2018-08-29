@@ -58,6 +58,8 @@ Where:
   some special characters on an ad-hoc basis. I do not plan to expand to
   lowercase or non-English characters. If you want to contribute more
   characters, please let me know.
+* The script randomizes colors for the xforms automatically. If you need
+  a different pallete or evenly-spaced colors, do this in Apophysis
 
 ## How it Works
 
