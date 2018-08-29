@@ -61,6 +61,15 @@ Where:
 * The script randomizes colors for the xforms automatically. If you need
   a different pallete or evenly-spaced colors, do this in Apophysis
 
+## Gallery
+
+Here is an example that shows what padding characters look like
+after rendering
+![Birthday](readme_images/birthday.png)
+
+Here is the full fractal alphabet as of 2018-08-29:
+![Alphabet](readme_images/alphabet.png)
+
 ## How it Works
 
 Here is a flowchart of how data flows through the program:
