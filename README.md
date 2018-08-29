@@ -64,8 +64,13 @@ Where:
 ## Gallery
 
 Here is an example that shows what padding characters look like
-after rendering
+after generating with the `--block-padding` option and rendering in Apo
 ![Birthday](readme_images/birthday.png)
+
+Here is the same example without `--block-padding`. Note that the holes
+in the text are propagated into evey stroke. This may or may not be
+desireable.
+![No Padding](readme_images/no_padding.png)
 
 Here is the full fractal alphabet as of 2018-08-29:
 ![Alphabet](readme_images/alphabet.png)
