@@ -61,7 +61,7 @@ class Font(object):
         for later calculations.
         """
         with open(fname, 'r') as yaml_file:
-            raw_font = yaml.load(yaml_file)
+            raw_font = yaml.safe_load(yaml_file)
             return dict(cls.process_font(raw_font))
 
     @classmethod
